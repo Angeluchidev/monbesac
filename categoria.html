@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monbesac</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stilos.css">
+</head>
+<body>
+
+    <main>
+        <header>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <a href="index.html">
+                            <li>Inicio</li>
+                        </a><a href="categoria.html">
+                            <li>Categorias</li>
+                        </a><a href="contacto.html">
+                            <li>Contacto</li>
+                        </a>
+                    </ul>
+    
+                </nav>
+            </div>
+            
+            <div id="logo">
+                <figure>
+                    <img src="images/logo-blanco.png" alt="">
+                </figure>
+                <h2>Color y Estilo</h2>
+                <h4>Todos nuestros bolsos están hechos con plástico reciclado</h4>
+            </div>
+  
+        </header>
+        <section id="categorias">
+            <h1 class="titulos">colecciones</h1>
+            <div class="container">
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/colecciones/colecciones-1.png" alt="Title">
+                            <div class="card-body">
+                                <h4 type="button" data-bs-toggle="modal" data-bs-target="#modal-retro" class="card-title">RETRO PACK THIN</h4>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal-retro" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                                <h5 class="modal-title" id="modalTitleId">RETRO PACK THIN</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <p>Los bolsos RP THIN de  MonBesac son ideales para el día a  día, ir de viaje, de compras.... Además los puedes plegar y guardar en tu maleta!! <br>
+
+                                                Bolso de plástico reciclado . Asa larga para colgar al hombro . Cierre con cremallera. <br>
+                                                
+                                                El doble bolsillo interior permite un acceso rápido y seguro al teléfono móvil y otro bolsillo con cremallera otorga espacio para nuestros pequeños accesorios <br>
+                                                
+                                                Dimensiones aprox: 35X27X18 cm</p>
+                                            <img src="images/colecciones/colecciones-1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            var modalId = document.getElementById('modalId');
+                        
+                            modalId.addEventListener('show.bs.modal', function (event) {
+                                  // Button that triggered the modal
+                                  let button = event.relatedTarget;
+                                  // Extract info from data-bs-* attributes
+                                  let recipient = button.getAttribute('data-bs-whatever');
+                        
+                                // Use above variables to manipulate the DOM
+                            });
+                        </script>
+                        
+
+                        
+                        
+                        
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/colecciones/colecciones-2.png" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">RETRO PACK CLASSIC</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/colecciones/colecciones-3.png" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">PICNIC S</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/colecciones/colecciones-4.png" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">PICNIC</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/colecciones/colecciones-5.png" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">BOLSO SHOPER</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/colecciones/colecciones-6.png" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">BOLSO BOMBÓM</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <div id="izquierda">
+            <div class="mail">
+                <label for="">Suscribete a nuestro Emails</label>
+                <input class="input-mail" type="email" placeholder="correo electronico">
+            </div>
+
+            <div class="idioma">
+                <div id="select-pais" class="select">
+                    <label for="">pais/region</label>
+                    <input id="input-pais" type="">
+                </div>
+                <div class="select">
+                    <label for="">Idioma</label>
+                    <input id="input-idioma" type="text">
+                </div>
+            </div>
+        </div>
+        <div id="centro">
+            <img id="logo-footer" src="images/logo-blanco.png" alt="logo-footer">
+            <h4 id="titulo-footer">© 2023, Monbesac Todos los derechos reservados</h4>
+        </div>
+        <div id="derecha">
+            <div id="redes">
+                <h4 class="titulo-iconos">
+                    Sigue nuestras redes
+                </h4>
+                <div id="iconos-redes">
+                    <a href=""><img src="images/icons-redes/instagram.svg" alt=""></a>
+                    <a href=""><img src="images/icons-redes/facebook.svg" alt=""></a>
+                    <a href=""><img src="images/icons-redes/Picteres.svg" alt=""></a>
+                    <a href=""><img src="images/icons-redes/whatsapp.svg" alt=""></a>
+                </div>
+                
+            </div>
+
+            <div id="redes">
+                <h4 class="titulo-iconos">
+                    Paga como prefieras
+                </h4>
+                <div id="iconos-redes">
+                    <a href=""><img src="images/iconos-pagos/Maestro.svg" alt=""></a>
+                    <a href=""><img src="images/iconos-pagos/MasterCard.svg" alt=""></a>
+                    <a href=""><img src="images/iconos-pagos/Visa.svg" alt=""></a>
+                    <a href=""><img src="images/iconos-pagos/UnionPay.svg" alt=""></a>
+                </div>
+                <div id="oculto">
+                    <h4 id="titulo-footer">© 2023, Monbesac Todos los derechos reservados</h4>
+                </div>
+                
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
